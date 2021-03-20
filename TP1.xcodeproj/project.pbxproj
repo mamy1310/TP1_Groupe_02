@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		132C2A5D2604FD9100F6907B /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132C2A5C2604FD9100F6907B /* RoundedButton.swift */; };
+		132C2A602605108E00F6907B /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132C2A5F2605108E00F6907B /* CircleButton.swift */; };
 		138DFCAA26046DC100934134 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138DFCA926046DC100934134 /* AppDelegate.swift */; };
 		138DFCAC26046DC100934134 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138DFCAB26046DC100934134 /* SceneDelegate.swift */; };
 		138DFCAE26046DC100934134 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138DFCAD26046DC100934134 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		132C2A5C2604FD9100F6907B /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		132C2A5F2605108E00F6907B /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 		138DFCA626046DC100934134 /* TP1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TP1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		138DFCA926046DC100934134 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		138DFCAB26046DC100934134 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				138DFCB226046DC800934134 /* Assets.xcassets */,
 				138DFCB426046DC800934134 /* LaunchScreen.storyboard */,
 				138DFCB726046DC800934134 /* Info.plist */,
+				132C2A5C2604FD9100F6907B /* RoundedButton.swift */,
+				132C2A5F2605108E00F6907B /* CircleButton.swift */,
 			);
 			path = TP1;
 			sourceTree = "<group>";
@@ -137,9 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				132C2A602605108E00F6907B /* CircleButton.swift in Sources */,
 				138DFCAE26046DC100934134 /* ViewController.swift in Sources */,
 				138DFCAA26046DC100934134 /* AppDelegate.swift in Sources */,
 				138DFCAC26046DC100934134 /* SceneDelegate.swift in Sources */,
+				132C2A5D2604FD9100F6907B /* RoundedButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +295,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D25DB3R6PM;
 				INFOPLIST_FILE = TP1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +315,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D25DB3R6PM;
 				INFOPLIST_FILE = TP1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
